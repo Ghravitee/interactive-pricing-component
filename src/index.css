@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Soft-Cyan-Full-Slider-Bar: hsl(174, 77%, 80%);
+  --Strong-Cyan-Slider-Background: rgb(16, 213, 194);
+  --Light-Grayish-Red-Discount-Background: hsl(14, 92%, 95%);
+  --Light-Red-Discount-Text: hsl(15, 100%, 70%);
+  --Pale-Blue-CTA-Text: hsl(226, 100%, 87%);
+
+  --Very-Pale-Blue-Main-Background: hsl(230, 100%, 99%);
+  --Light-Grayish-Blue-Empty-Slider-Bar: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue-Toggle-Background: hsl(223, 50%, 87%);
+  --Grayish-Blue-Text: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue-Text-CTA-Background: hsl(227, 35%, 25%);
+}
+
+
+
+
+.manrope-600 {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.manrope-800 {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  height: 30px; /* Adjust thumb height */
+  width: 30px; /* Adjust thumb width */
+  background-color: #10d5c2; /* Tailwind's yellow-500 color */
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(16, 213, 194, .8);
+  cursor: pointer;
+  background-image: url('../src/images/icon-slider.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #269489;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 30px;
+  width: 30px;
+  background-color: #10d5c2;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(16, 213, 194, .8);
+  cursor: pointer;
+  background-image: url('../src/images/icon-slider.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  background-color: #269489;
+}
+
+input[type="range"]::-ms-thumb {
+  height: 30px;
+  width: 30px;
+  background-color: #10d5c2;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(16, 213, 194, .8);
+  cursor: pointer;
+  background-image: url('../src/images/icon-slider.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+input[type="range"]::-ms-thumb:hover {
+  background-color: #269489;
+}
