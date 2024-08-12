@@ -12,7 +12,7 @@ function App() {
   ];
   return (
     <main className="bg-Very-Pale-Blue-Main-Background">
-      <div className="bg-main-background bg-no-repeat bg-cover lg:bg-center pt-[12rem] pb-[12rem] px-4 relative flex justify-center items-end">
+      <div className="bg-main-background bg-no-repeat bg-cover lg:bg-center pt-[12rem] pb-[12rem] md:pb-[18rem] px-4 relative flex justify-center items-end">
       <img
             src={bgPattern}
             alt=""

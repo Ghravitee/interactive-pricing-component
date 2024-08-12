@@ -2,8 +2,8 @@ import check from "../images/icon-check.svg";
 
 const Features = () => {
   return (
-    <div className="flex flex-col md:flex-row px-6 md:px-10 justify-between items-center">
-      <div className="flex flex-col justify-center md:justify-start items-center md:items-start gap-4">
+    <div className="flex flex-col md:flex-row px-6 md:px-10 lg:px-16 justify-between items-center">
+      <div className="flex flex-col justify-center md:justify-start items-center md:items-start gap-4 lg:gap-2">
         {[
           {
             itemIcon: check,
@@ -31,7 +31,7 @@ const Features = () => {
           );
         })}
       </div>
-      <button className="bg-Dark-Desaturated-Blue-Text-CTA-Background manrope-800 text-[0.75rem] hover:text-white flex justify-center mt-6 md:mt-0 items-center px-4 w-[60%] md:w-[40%] py-2 rounded-full text-Pale-Blue-CTA-Text">
+      <button className="bg-Dark-Desaturated-Blue-Text-CTA-Background manrope-800 text-[0.75rem] hover:text-white flex justify-center mt-6 md:mt-0 items-center px-4 w-[60%] md:w-[40%] py-2 lg:py-3 lg:w-[30%] rounded-full text-Pale-Blue-CTA-Text">
         Start my trial
       </button>
     </div>

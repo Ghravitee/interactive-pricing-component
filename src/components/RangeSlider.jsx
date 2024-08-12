@@ -22,7 +22,7 @@ const RangeSlider = ({ options }) => {
 
   return (
     <div className="-translate-y-36 md:-translate-y-40 bg-white rounded-xl py-8 w-[85%] mx-auto md:w-[70%] lg:w-[60%] xl:w-[40%] shadow-[rgba(0,0,0,0.05)_0px_6px_6px_2px] my-6">
-      <div className="grid grid-row-3 md:grid-cols-2 md:grid-row-2 gap-2 md:gap-4 px-6 md:px-10 mb-8">
+      <div className="grid grid-row-3 md:grid-cols-2 md:grid-row-2 gap-2 md:gap-4 px-6 md:px-10 lg:px-16 mb-8">
         <label
           htmlFor="range"
           className="text-center md:col-start-1 md:col-end-2 flex md:justify-start justify-center items-center manrope-800 font-bold text-[0.75rem] md:text-[.9rem] tracking-widest text-Grayish-Blue-Text mb-6 md:mb-0"
@@ -65,7 +65,7 @@ const RangeSlider = ({ options }) => {
       </div>
       <Billing yearly={isYearly} toggle={toggleBilling} />
 
-      <hr className="bg-Light-Grayish-Blue-Toggle-Background h-[1px] w-full my-6" />
+      <hr className="bg-Light-Grayish-Blue-Toggle-Background h-[1px] w-full my-6 lg:my-12" />
       <Features />
     </div>
   );
