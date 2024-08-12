@@ -43,10 +43,10 @@ const RangeSlider = ({ options }) => {
               background: `linear-gradient(to right, #a5f3eb 0%, #a5f3eb ${
                 // eslint-disable-next-line react/prop-types
                 (index / (options.length - 1)) * 100
-              }%, #e5e7eb ${
+              }%, #eaeefb ${
                 // eslint-disable-next-line react/prop-types
                 (index / (options.length - 1)) * 100
-              }%, #e5e7eb 100%)`,
+              }%, #eaeefb 100%)`,
             }}
           />
         </div>

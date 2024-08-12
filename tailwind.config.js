@@ -21,7 +21,7 @@ export default {
         "Dark-Desaturated-Blue-Text-CTA-Background": "hsl(227, 35%, 25%)",
       },
       backgroundImage: {
-        "main-background": "url('./src/images/bg-pattern.svg')",
+        "main-background": "url('/bg-pattern.svg')",
       }
     },
   },
